@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    margin-right: 10px;
+}
+header .title h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Arrange items in a row */
+    gap: 10px; /* Space between navigation items */
+}
+
+nav ul li {
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #000; /* Set link color */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+main {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.cta {
+    text-align: center;
+}
+
+.cta .button {
+    display: inline-block;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta .button:hover {
+    background-color: #005bb5;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #005bb5;
+    border-radius: 5px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+logo {
+    margin-right: 10px; /* Space between the logo and the text */
+}
+
+title h1 {
+    font-size: 24px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    background-image: url('src/main/webapp/images/background.jpg');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
